@@ -3,7 +3,7 @@ import React from "react";
 
 const imgAsia = "../../assets/imagens/asia.png";
 
-export default function Tela1() {
+export default function Tela3() {
   return (
     <View style={styles.container}>
       <ImageBackground source={require(imgAsia)} style={styles.imgFundo}>

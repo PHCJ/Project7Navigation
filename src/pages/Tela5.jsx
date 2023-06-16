@@ -3,7 +3,7 @@ import React from "react";
 
 const imgOceania = "../../assets/imagens/oceania.png";
 
-export default function Tela1() {
+export default function Tela5() {
   return (
     <View style={styles.container}>
       <ImageBackground source={require(imgOceania)} style={styles.imgFundo}>
