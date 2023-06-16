@@ -1,15 +1,15 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import React from "react";
 
-const imgAfrica = "../../assets/imagens/africa.png";
+const imgEuropa = "../../assets/europa.png";
 
-export default function Tela1() {
+export default function Tela4() {
   return (
     <View style={styles.container}>
-      <ImageBackground source={require(imgAfrica)} style={styles.imgFundo}>
+      <ImageBackground source={require(imgEuropa)} style={styles.imgFundo}>
         <Text style={styles.texto}>
-          África: Continente com rica diversidade cultural, paisagens
-          impressionantes e vida selvagem única.
+          Europa: Continente com riqueza histórica e cultural, cidades icônicas
+          e paisagens pitorescas.
         </Text>
       </ImageBackground>
     </View>

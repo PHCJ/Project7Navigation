@@ -1,15 +1,15 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import React from "react";
 
-const imgOceania = "../../assets/imagens/oceania.png";
+const imgAmericas = "../../assets/americas.png";
 
-export default function Tela5() {
+export default function Tela2() {
   return (
     <View style={styles.container}>
-      <ImageBackground source={require(imgOceania)} style={styles.imgFundo}>
+      <ImageBackground source={require(imgAmericas)} style={styles.imgFundo}>
         <Text style={styles.texto}>
-          Oceania: Continente com paisagens deslumbrantes, praias paradisíacas e
-          cultura indígena diversificada.
+          Américas: Continente com diversidade cultural, paisagens variadas e
+          rica biodiversidade.
         </Text>
       </ImageBackground>
     </View>
