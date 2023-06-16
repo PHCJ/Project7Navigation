@@ -1,12 +1,13 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import React from "react";
 
-const imgOceania = "../../oceania.png";
-
 export default function Tela5() {
   return (
     <View style={styles.container}>
-      <ImageBackground source={require(imgOceania)} style={styles.imgFundo}>
+      <ImageBackground
+        source={require("../../assets/Images/oceania.png")}
+        style={styles.imgFundo}
+      >
         <Text style={styles.texto}>
           Oceania: Continente com paisagens deslumbrantes, praias paradisíacas e
           cultura indígena diversificada.

@@ -1,12 +1,10 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import React from "react";
 
-const imgAmericas = "../../americas.png";
-
 export default function Tela2() {
   return (
     <View style={styles.container}>
-      <ImageBackground source={require(imgAmericas)} style={styles.imgFundo}>
+      <ImageBackground source={require('../../assets/Images/americas.png')} style={styles.imgFundo}>
         <Text style={styles.texto}>
           Américas: Continente com diversidade cultural, paisagens variadas e
           rica biodiversidade.

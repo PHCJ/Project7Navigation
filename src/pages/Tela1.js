@@ -1,12 +1,10 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import React from "react";
 
-const imgAFrica= '../../africa.png';
-
 export default function Tela1() {
   return (
     <View style={styles.container}>
-      <ImageBackground source={require(imgAFrica)} style={styles.imgFundo}>
+      <ImageBackground source={require('../../assets/Images/africa.png')} style={styles.imgFundo}>
         <Text style={styles.texto}>
           África: Continente com rica diversidade cultural, paisagens
           impressionantes e vida selvagem única.
