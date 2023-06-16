@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import React from "react";
 
-const imgAsia = "../../assets/asia.png";
+const imgAsia = "../../asia.png";
 
 export default function Tela3() {
   return (

@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import React from "react";
 
-const imgEuropa = "../../assets/europa.png";
+const imgEuropa = "../../europa.png";
 
 export default function Tela4() {
   return (

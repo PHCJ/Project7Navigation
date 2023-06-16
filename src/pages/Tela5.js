@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import React from "react";
 
-const imgOceania = "../../assets/oceania.png";
+const imgOceania = "../../oceania.png";
 
 export default function Tela5() {
   return (
