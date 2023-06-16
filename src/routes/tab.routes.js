@@ -1,10 +1,10 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Feather } from "@expo/vector-icons";
-import Tela1 from "../pages/Tela1.js";
-import Tela2 from "../pages/Tela2.js";
-import Tela3 from "../pages/Tela3.js";
-import Tela4 from "../pages/Tela4.js";
-import Tela5 from "../pages/Tela5.js";
+import Tela1 from "../pages/Tela1";
+import Tela2 from "../pages/Tela2";
+import Tela3 from "../pages/Tela3";
+import Tela4 from "../pages/Tela4";
+import Tela5 from "../pages/Tela5";
 
 const Tab = createBottomTabNavigator();
 
